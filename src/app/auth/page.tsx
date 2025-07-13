@@ -30,7 +30,7 @@ const AuthPage = () => {
     }
 
     if (phone.length !== 11) {
-      setError('شماره تلفن باید 11 رقم باشد');
+      setError(`شماره تلفن باید ${ToPersianNumber('11')} رقم باشد`);
       return;
     }
 
