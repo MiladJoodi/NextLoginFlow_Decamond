@@ -2,6 +2,8 @@
 
 This project was developed as a task for Fanavari Digital Decamond.
 
+👉 You can view the live demo here: [**Demo**](https://decamond-joodi.vercel.app/)
+
 ---
 
 ## Technologies Used
