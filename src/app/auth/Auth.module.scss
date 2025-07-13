@@ -1,0 +1,23 @@
+.container {
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 2rem;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+  
+    h1 {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      color: #0070f3;
+    }
+  
+    .error {
+      color: #d32f2f;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+  }
+  
