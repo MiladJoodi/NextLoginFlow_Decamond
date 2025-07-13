@@ -5,6 +5,8 @@ import Input from '../../components/Input/Input';
 import Button from '../../components/Button/Button';
 import styles from './Auth.module.scss';
 import { useRouter } from 'next/navigation';
+import { ToPersianNumber } from 'topersiannumber';
+
 
 const iranPhoneRegex = /^09\d{9}$/;
 
@@ -58,7 +60,7 @@ const AuthPage = () => {
         name="phone"
         value={phone}
         onChange={e => setPhone(e.target.value)}
-        placeholder="09xxxxxxxxx"
+        placeholder={ToPersianNumber('09xxxxxxxxx')}
       />
       {error && <p className={styles.error}>{error}</p>}
       <Button onClick={handleLogin} disabled={loading}>

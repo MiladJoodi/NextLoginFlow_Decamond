@@ -10,8 +10,8 @@ const vazirmatn = Vazirmatn({
 });
 
 export const metadata: Metadata = {
-  title: "NextLoginFlow",
-  description: "Authentication task with Next.js",
+  title: "Next Login Flow - Decamond",
+  description: "Authentication task with Next.js for Decamond",
 };
 
 export default function RootLayout({

@@ -12,7 +12,8 @@
     "next": "15.3.5",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "sass": "^1.89.2"
+    "sass": "^1.89.2",
+    "topersiannumber": "^1.0.5"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
