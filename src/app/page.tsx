@@ -25,13 +25,11 @@ export default function Home() {
   }, [router]);
 
   const handleLogout = () => {
-    const confirmed = window.confirm('آیا مطمئن هستید که می‌خواهید خارج شوید؟');
-    if (confirmed) {
+    if (window.confirm('آیا مطمئن هستید که می‌خواهید خارج شوید؟')) {
       localStorage.removeItem('user');
       router.push('/auth');
     }
   };
-
 
   const goToDashboard = () => {
     router.push('/dashboard');
@@ -42,16 +40,13 @@ export default function Home() {
   return (
     <main className={styles.container}>
       <h2 className={styles.title}>این صفحه‌ی نخست است.</h2>
-
       <p className={styles.greeting}>
         خوش اومدی {user.name.first} {user.name.last} 👋
       </p>
-
       <div className={styles.buttons}>
         <button onClick={goToDashboard} className={styles.button}>
           برو به داشبورد
         </button>
-
         <button onClick={handleLogout} className={styles.button}>
           خروج
         </button>

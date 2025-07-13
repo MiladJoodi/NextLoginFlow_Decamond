@@ -8,30 +8,38 @@
   color: #333;
   padding: 2rem;
   text-align: center;
+}
 
-  h1 {
-    font-size: 1.75rem;
-    margin-bottom: 2rem;
-  }
+.title {
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #4a5568;
+}
 
-  .buttons {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    justify-content: center;
+.greeting {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
 
-    button {
-      padding: 0.5rem 1rem;
-      border: 1px solid #aaa;
-      background-color: transparent;
-      color: inherit;
-      cursor: pointer;
-      border-radius: 4px;
-      transition: background-color 0.2s;
+.buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
-      &:hover {
-        background-color: #eaeaea;
-      }
-    }
-  }
+.button {
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #aaa;
+  background-color: transparent;
+  color: inherit;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button:hover {
+  background-color: #eaeaea;
 }

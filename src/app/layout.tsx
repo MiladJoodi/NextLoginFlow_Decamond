@@ -1,12 +1,11 @@
-// src/app/layout.tsx
 import type { Metadata } from "next";
 import { Vazirmatn } from "next/font/google";
 import "./globals.css";
 
 const vazirmatn = Vazirmatn({
-  subsets: ["latin", "arabic"], // برای فارسی لازمه
+  subsets: ["latin", "arabic"],
   display: "swap",
-  weight: ["400", "500", "700"], // وزن‌های رایج
+  weight: ["400", "500", "700"],
 });
 
 export const metadata: Metadata = {
