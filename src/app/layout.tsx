@@ -21,6 +21,30 @@ export default function RootLayout({
   return (
     <html lang="fa" dir="rtl">
       <body className={vazirmatn.className}>
+
+        {/* GitHub Ribbon */}
+        <a
+          href="https://github.com/MiladJoodi/NextLoginFlow_Decamond"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            border: 0,
+            zIndex: 1000,
+          }}
+        >
+          <img
+            src="https://github.blog/wp-content/uploads/2008/12/forkme_left_darkblue_121621.png"
+            alt="Fork me on GitHub"
+            width="149"
+            height="149"
+            loading="lazy"
+            decoding="async"
+          />
+        </a>
+
         {children}
       </body>
     </html>
